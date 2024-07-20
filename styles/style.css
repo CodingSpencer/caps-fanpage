@@ -1,156 +1,158 @@
 a img {
-    border-radius: 50%;
-    object-fit: fill;
+  border-radius: 50%;
+  object-fit: fill;
 }
 
-body{
-    background-color: navy;
-    font-family: "Kaushan Script", "Pacifico", "Tahoma";
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: navy;
+  font-family: "Kaushan Script", "Pacifico", "Tahoma";
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    background-color: maroon;
-    display: grid;
-    grid-template-columns: 150px auto;
+header {
+  background-color: maroon;
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 
-nav a{
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 35px;
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
 }
 
-nav
-{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
 }
 
-nav a:hover{
-    background-color: white;
-    color: black;
+nav a:hover {
+  background-color: white;
+  color: black;
 }
 
-.logo{
-    width: 120px;
+.logo {
+  width: 120px;
 }
-
-
 
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .page {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: maroon;
-    font-size: 1.8em;
-    text-shadow: 4px 4px black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: maroon;
+  font-size: 1.8em;
+  text-shadow: 4px 4px black;
 }
 
 .welcome {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: maroon;
-    font-size: 1.8em;
-    text-shadow: 2px 2px black;
-    max-width: 700px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: maroon;
+  font-size: 1.8em;
+  text-shadow: 2px 2px black;
+  max-width: 700px;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h3 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-
-
 .box1 {
-    background-color: white;
-    border-radius: 25px;
-    padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .costume {
-    width: 250px;
-    height: 300px;
-    float: left;
-    padding: 15px;
+  width: 250px;
+  height: 300px;
+  float: left;
+  padding: 15px;
 }
 
 .one {
-    text-align: justify;
+  text-align: justify;
 }
 
 .box2 {
-    background-color: white;
-    border-radius: 25px;
-    padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .shiny {
-    width: 300px;
-    height: 300px;
-    float: right;
-    padding: 15px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  padding: 15px;
 }
 
 .two {
-    text-align: justify;
+  text-align: justify;
 }
 
 .box3 {
-    background-color: white;
-    border-radius: 25px;
-    padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .watch {
-    width: 300px;
-    height: 300px;
-    float: left;
-    padding: 15px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  padding: 15px;
 }
 
 .three {
-    text-align: justify;
+  text-align: justify;
 }
 
 .flag {
-    width: 700px;
-    height: 400px;
+  width: 700px;
+  height: 400px;
 }
 
 main p {
-    line-height: 1.25;
+  line-height: 1.25;
 }
 
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 
 #info2 {
-    display: none;
+  display: none;
 }
 
 #info3 {
-    display: none;
+  display: none;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Style the tab */
@@ -159,12 +161,12 @@ main p {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 30%;
-  height: 500px;
+  height: 800px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  display: block;
+  display: flex;
   background-color: inherit;
   color: black;
   padding: 22px 16px;
@@ -193,102 +195,87 @@ main p {
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 500px;
+  height: 800px;
 }
 
-
-footer a{
-    color: white;
-    text-decoration: none;
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
-footer a:hover{
-    color: white;
+footer a:hover {
+  color: white;
 }
 
-footer{
-    background-color: maroon;
-    padding: 25px 50px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+footer {
+  background-color: maroon;
+  padding: 25px 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
-
-
-
-
 
 .intro {
-    text-align: center;
-    color: white;
-    border: solid 5px white;
-    border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: solid 5px white;
+  border-radius: 5px;
 }
 
 .merch {
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    text-align: center;
-    color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  text-align: center;
+  color: white;
 }
 
 main div {
-    padding: 30px;
+  padding: 30px;
 }
 
 div button {
-    padding: 10px 24px;
-    border-radius: 12px;
-    font-size: 20px;
-    background-color: maroon;
-    border: 3px solid white;
-    color: white;
+  padding: 10px 24px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: maroon;
+  border: 3px solid white;
+  color: white;
 }
 
 .merch1 {
-    grid-column: 2;
-    grid-row: 1;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .merch2 {
-    grid-column: 3;
-    grid-row: 1;
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .merch3 {
-    grid-column: 2;
-    grid-row: 2;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .merch4 {
-    grid-column: 3;
-    grid-row: 2;
+  grid-column: 3;
+  grid-row: 2;
 }
 
 .merch5 {
-    grid-column: 2;
-    grid-row: 3;
+  grid-column: 2;
+  grid-row: 3;
 }
 
 .merch6 {
-    grid-column: 3;
-    grid-row: 3;
+  grid-column: 3;
+  grid-row: 3;
 }
 
 .merch img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
-
-
-
-
-
-
-
-
-
